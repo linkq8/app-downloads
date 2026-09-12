@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apps.linkq8.com/schema/catalog.schema.json",
+  "title": "LinkQ8 application catalog",
+  "type": "object",
+  "required": ["brand", "apps"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "brand": {
+      "type": "object",
+      "required": ["name", "domain", "defaultLocale"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "domain": { "type": "string", "minLength": 1 },
+        "defaultLocale": { "enum": ["ar", "en"] }
+      },
+      "additionalProperties": false
+    },
+    "apps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "summary", "platforms"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "summary": {
+            "type": "object",
+            "required": ["ar", "en"],
+            "properties": {
+              "ar": { "type": "string", "minLength": 1 },
+              "en": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          },
+          "icon": { "type": "string" },
+          "homepage": { "type": "string", "format": "uri" },
+          "platforms": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "enum": ["macos", "windows", "linux", "android", "ios", "web"] }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

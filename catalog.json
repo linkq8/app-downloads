@@ -1,0 +1,9 @@
+{
+  "$schema": "./schema/catalog.schema.json",
+  "brand": {
+    "name": "LinkQ8 Apps",
+    "domain": "apps.linkq8.com",
+    "defaultLocale": "ar"
+  },
+  "apps": []
+}
