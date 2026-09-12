@@ -5,5 +5,18 @@
     "domain": "apps.linkq8.com",
     "defaultLocale": "ar"
   },
-  "apps": []
+  "apps": [
+    {
+      "id": "adam-summit",
+      "name": "Adam's Summit · مغامرات آدم",
+      "summary": {
+        "ar": "لعبة قفز ثنائية الأبعاد للعائلة: اجمع النجوم واصعد عبر خمسة عوالم. لاعب واحد على الهاتف وحتى أربعة لاعبين على Android TV.",
+        "en": "A family-friendly 2D climbing game: collect stars across five worlds. Single-player on phones and up to four players on Android TV."
+      },
+      "platforms": [
+        "android"
+      ],
+      "homepage": "https://github.com/linkq8/adam-summit"
+    }
+  ]
 }
