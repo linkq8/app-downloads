@@ -16,7 +16,7 @@ qalam-v1.2.0
 
 ## Add an application
 
-Add its public metadata to `catalog.json`, then validate the file:
+Add its public metadata to `catalog.json` with an explicit `"public": true` marker, then validate the file. Applications absent from this catalog remain private and are never shown on the public portal.
 
 ```bash
 ./scripts/validate-catalog.sh
