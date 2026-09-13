@@ -8,6 +8,7 @@
   "apps": [
     {
       "id": "adam-summit",
+      "public": true,
       "name": "Adam's Summit · مغامرات آدم",
       "summary": {
         "ar": "لعبة قفز ثنائية الأبعاد للعائلة: اجمع النجوم واصعد عبر خمسة عوالم. لاعب واحد على الهاتف وحتى أربعة لاعبين على Android TV.",
@@ -16,6 +17,7 @@
       "platforms": [
         "android"
       ],
+      "releaseTagPrefix": "adam-summit-v",
       "homepage": "https://github.com/linkq8/adam-summit"
     }
   ]
