@@ -20,6 +20,21 @@
       ],
       "releaseTagPrefix": "adam-summit-v",
       "homepage": "https://github.com/linkq8/adam-summit"
+    },
+    {
+      "id": "linkq8-apps",
+      "public": true,
+      "name": "LinkQ8 Apps",
+      "summary": {
+        "ar": "بوابة تطبيقات LinkQ8 لتصفح أحدث الإصدارات وتنزيلها على هواتف أندرويد وأجهزة Android TV وGoogle TV.",
+        "en": "The LinkQ8 app portal for browsing and downloading the latest releases on Android phones, Android TV, and Google TV."
+      },
+      "platforms": [
+        "android",
+        "android-tv"
+      ],
+      "releaseTagPrefix": "linkq8-apps-v",
+      "homepage": "https://apps.linkq8.com"
     }
   ]
 }
