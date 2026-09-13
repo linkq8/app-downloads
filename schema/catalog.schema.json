@@ -41,7 +41,7 @@
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
-            "items": { "enum": ["macos", "windows", "linux", "android", "ios", "web"] }
+            "items": { "enum": ["macos", "windows", "linux", "android", "android-tv", "ios", "web"] }
           }
         },
         "additionalProperties": false

@@ -15,7 +15,8 @@
         "en": "A family-friendly 2D climbing game: collect stars across five worlds. Single-player on phones and up to four players on Android TV."
       },
       "platforms": [
-        "android"
+        "android",
+        "android-tv"
       ],
       "releaseTagPrefix": "adam-summit-v",
       "homepage": "https://github.com/linkq8/adam-summit"
